@@ -5,11 +5,11 @@ from partners_type import Product, Partner, Sale
 # Press the green button in the gutter to run the script.
 def connect_db():
     return psycopg2.connect(
-        dbname="demo",
-        user="postgres",
-        password="1234",
-        host="localhost",
-        port="5432"
+        dbname="",
+        user="",
+        password="",
+        host="",
+        port=""
     )
 
 def fetch_data():
